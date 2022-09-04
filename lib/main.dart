@@ -13,8 +13,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                "https://pbs.twimg.com/profile_images/1557751629327339521/oUgL20Qj_400x400.jpg"),
+            image: AssetImage('images/android_logo.png'),
           ),
         ),
       ),
